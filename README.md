@@ -156,7 +156,7 @@ prometheus     NodePort       10.0.129.47    <none>          9090:31119/TCP   27
 ## Test OpenFaas
 Goto the endpoint IP address with your browser, port 8080.  And create your first OpenFaas function - we'll use the Figlet service from the marketplace.
 
-![alt text](OpenFaas/invoke.gif "Test OpenFaas")
+![alt text](OpenFaaS/invoke.gif "Test OpenFaas")
 
 And let's use curl for this endpoint
 
