@@ -179,7 +179,7 @@ Now that OpenFaaS is installed, and is publishing one of the marketplace endpoin
 ## Deploy APIM
 Login to the [portal](http://portal.azure.com) and search for APIM.
 
-![alt text](OpenFaas/create-apim.gif "Deploy APIM")
+![alt text](OpenFaaS/create-apim.gif "Deploy APIM")
 
 It's :coffee: time.  Deploying APIM takes about 30 minutes as there are a number of Azure services used to create a secure front-end for use across any resources you may need to protect.
 
@@ -188,17 +188,17 @@ Login to the portal, and click on the API section of the API Management pane.
 
 You can go ahead and create the API endpoint.
 
-![alt text](OpenFaas/create-endpoint.gif "Create Endpoint")
+![alt text](OpenFaaS/create-endpoint.gif "Create Endpoint")
 
 ### Create Figlet action
 So now that the endpoint has been created, it's time to create the HTTP action (verb) for that action.
 
-![alt text](OpenFaas/test-endpoint.gif "Create Verb")
+![alt text](OpenFaaS/test-endpoint.gif "Create Verb")
 
 ## Take a look at the developer portal
 One of the really nice things about APIM is the fact that once you've defined your APIs, endpoints and actions, they are available for the general public to start using.
 
 We create an administrative portal that contains call metrics, api breakdowns etc., but also a developer portal for users to sign up, view automatically generated documentation, as well as pre-canned code examples of how to interact with your new OpenFaas function.
 
-![alt text](OpenFaas/developer-portal.gif "Create Verb")
+![alt text](OpenFaaS/developer-portal.gif "Create Verb")
 
