@@ -1,9 +1,14 @@
 # Serverless On AKS
+
+**NOTE: This is still WIP as I need to add OAuth and metrics overview**
+
+
 AKS (Azure Container Service for Kubernetes) is Microsoft's fully managed, and hosted Kubernetes container orchestrator.  We take care of the availability, scalability and resilience of the Master nodes within the cluster and you will only be charged for the Agent nodes.
 
 This greatly simplifies your life as a Kubernetes administrator and allows you to concentrate on more of the fun stuff (like Serverless!)
 
 This walkthrough is how to go from zero to hero with AKS and Serverless frameworks.
+
 
 ## OpenFaaS
 [Alex](https://twitter.com/alexellisuk?lang=en) has done a fantastic job with [OpenFaaS](https://www.openfaas.com/), and has built a great community around the framework.  Let's start with that and we can delve into some of the other popular frameworks later.
